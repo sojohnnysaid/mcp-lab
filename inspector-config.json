@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "enterprise-search": {
+      "command": "python3.12",
+      "args": ["/home/ec2-user/environment/mcp-lab/server.py"]
+    }
+  }
+}
