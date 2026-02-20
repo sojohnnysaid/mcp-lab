@@ -49,7 +49,7 @@ Mock Search API running on http://localhost:8080
 ### Quick smoke test (Terminal 2)
 
 ```bash
-curl -s "http://localhost:8080/search?q=renewal&top_k=2" | python3 -m json.tool
+curl -s "http://localhost:8080/search?q=renewal&top_k=2" | python3 -m json.tool | jq
 ```
 
 Confirm you see JSON results. You are ready.
